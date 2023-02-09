@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AE5E9B912995478000DB7CF7 /* CodingTeacherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9B902995478000DB7CF7 /* CodingTeacherApp.swift */; };
-		AE5E9B932995478000DB7CF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9B922995478000DB7CF7 /* ContentView.swift */; };
+		AE5E9B932995478000DB7CF7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9B922995478000DB7CF7 /* HomeView.swift */; };
 		AE5E9B952995478200DB7CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5E9B942995478200DB7CF7 /* Assets.xcassets */; };
 		AE5E9B982995478200DB7CF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5E9B972995478200DB7CF7 /* Preview Assets.xcassets */; };
+		AE5E9BA42995488400DB7CF7 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BA32995488400DB7CF7 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE5E9B8D2995478000DB7CF7 /* CodingTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5E9B902995478000DB7CF7 /* CodingTeacherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTeacherApp.swift; sourceTree = "<group>"; };
-		AE5E9B922995478000DB7CF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE5E9B922995478000DB7CF7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AE5E9B942995478200DB7CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5E9B972995478200DB7CF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5E9BA32995488400DB7CF7 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				AE5E9B902995478000DB7CF7 /* CodingTeacherApp.swift */,
-				AE5E9B922995478000DB7CF7 /* ContentView.swift */,
+				AE5E9BA22995482C00DB7CF7 /* Utilities */,
+				AE5E9BA12995482200DB7CF7 /* Resources */,
+				AE5E9BA02995480700DB7CF7 /* Models */,
+				AE5E9B9F299547FC00DB7CF7 /* ViewModels */,
+				AE5E9B9E299547F200DB7CF7 /* Views */,
 				AE5E9B942995478200DB7CF7 /* Assets.xcassets */,
 				AE5E9B962995478200DB7CF7 /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				AE5E9B972995478200DB7CF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE5E9B9E299547F200DB7CF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E9B922995478000DB7CF7 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE5E9B9F299547FC00DB7CF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E9BA32995488400DB7CF7 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AE5E9BA02995480700DB7CF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE5E9BA12995482200DB7CF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE5E9BA22995482C00DB7CF7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5E9B932995478000DB7CF7 /* ContentView.swift in Sources */,
+				AE5E9B932995478000DB7CF7 /* HomeView.swift in Sources */,
 				AE5E9B912995478000DB7CF7 /* CodingTeacherApp.swift in Sources */,
+				AE5E9BA42995488400DB7CF7 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
