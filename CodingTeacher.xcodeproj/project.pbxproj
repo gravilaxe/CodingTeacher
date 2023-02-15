@@ -15,6 +15,15 @@
 		AE5E9BA729955D3C00DB7CF7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5E9BA529955D3B00DB7CF7 /* data.json */; };
 		AE5E9BA829955D3C00DB7CF7 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = AE5E9BA629955D3C00DB7CF7 /* style.html */; };
 		AE5E9BD2299A92AC00DB7CF7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BD1299A92AC00DB7CF7 /* Models.swift */; };
+		AE5E9BD4299A9FF500DB7CF7 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BD3299A9FF500DB7CF7 /* HomeViewRow.swift */; };
+		AE5E9BD6299AAFCA00DB7CF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BD5299AAFCA00DB7CF7 /* ContentView.swift */; };
+		AE5E9BD8299AB7EC00DB7CF7 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BD7299AB7EC00DB7CF7 /* ContentViewRow.swift */; };
+		AE5E9BDA299AD05800DB7CF7 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BD9299AD05800DB7CF7 /* ContentDetailView.swift */; };
+		AE5E9BDD299AD2B000DB7CF7 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5E9BDC299AD2AF00DB7CF7 /* AVKit.framework */; };
+		AE5E9BDF299AD42000DB7CF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BDE299AD42000DB7CF7 /* Constants.swift */; };
+		AE5E9BE1299BDCF600DB7CF7 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BE0299BDCF600DB7CF7 /* CodeTextView.swift */; };
+		AE5E9BE3299BF0CA00DB7CF7 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BE2299BF0CA00DB7CF7 /* RectangleCard.swift */; };
+		AE5E9BE5299BF62D00DB7CF7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E9BE4299BF62D00DB7CF7 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,15 @@
 		AE5E9BA529955D3B00DB7CF7 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		AE5E9BA629955D3C00DB7CF7 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		AE5E9BD1299A92AC00DB7CF7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AE5E9BD3299A9FF500DB7CF7 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		AE5E9BD5299AAFCA00DB7CF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE5E9BD7299AB7EC00DB7CF7 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		AE5E9BD9299AD05800DB7CF7 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		AE5E9BDC299AD2AF00DB7CF7 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		AE5E9BDE299AD42000DB7CF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE5E9BE0299BDCF600DB7CF7 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		AE5E9BE2299BF0CA00DB7CF7 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		AE5E9BE4299BF62D00DB7CF7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5E9BDD299AD2B000DB7CF7 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +64,7 @@
 			children = (
 				AE5E9B8F2995478000DB7CF7 /* CodingTeacher */,
 				AE5E9B8E2995478000DB7CF7 /* Products */,
+				AE5E9BDB299AD2AF00DB7CF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				AE5E9B922995478000DB7CF7 /* HomeView.swift */,
+				AE5E9BD3299A9FF500DB7CF7 /* HomeViewRow.swift */,
+				AE5E9BE0299BDCF600DB7CF7 /* CodeTextView.swift */,
+				AE5E9BE7299BF64700DB7CF7 /* Test */,
+				AE5E9BE6299BF63D00DB7CF7 /* Content */,
+				AE5E9BE2299BF0CA00DB7CF7 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +133,7 @@
 			children = (
 				AE5E9BA529955D3B00DB7CF7 /* data.json */,
 				AE5E9BA629955D3C00DB7CF7 /* style.html */,
+				AE5E9BDE299AD42000DB7CF7 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -117,6 +143,32 @@
 			children = (
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AE5E9BDB299AD2AF00DB7CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E9BDC299AD2AF00DB7CF7 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE5E9BE6299BF63D00DB7CF7 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E9BD9299AD05800DB7CF7 /* ContentDetailView.swift */,
+				AE5E9BD7299AB7EC00DB7CF7 /* ContentViewRow.swift */,
+				AE5E9BD5299AAFCA00DB7CF7 /* ContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		AE5E9BE7299BF64700DB7CF7 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E9BE4299BF62D00DB7CF7 /* TestView.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +243,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5E9BE5299BF62D00DB7CF7 /* TestView.swift in Sources */,
 				AE5E9B932995478000DB7CF7 /* HomeView.swift in Sources */,
+				AE5E9BD4299A9FF500DB7CF7 /* HomeViewRow.swift in Sources */,
+				AE5E9BD6299AAFCA00DB7CF7 /* ContentView.swift in Sources */,
+				AE5E9BDA299AD05800DB7CF7 /* ContentDetailView.swift in Sources */,
 				AE5E9B912995478000DB7CF7 /* CodingTeacherApp.swift in Sources */,
+				AE5E9BD8299AB7EC00DB7CF7 /* ContentViewRow.swift in Sources */,
+				AE5E9BE1299BDCF600DB7CF7 /* CodeTextView.swift in Sources */,
 				AE5E9BA42995488400DB7CF7 /* ContentModel.swift in Sources */,
 				AE5E9BD2299A92AC00DB7CF7 /* Models.swift in Sources */,
+				AE5E9BE3299BF0CA00DB7CF7 /* RectangleCard.swift in Sources */,
+				AE5E9BDF299AD42000DB7CF7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +421,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
